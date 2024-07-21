@@ -9,6 +9,16 @@ a:visited {
   color: inherit;
 }
 
+/* Stili di base */
+body, nav, ul {
+  font-family: 'OpenDyslexic', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a:visited {
+  color: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -387,3 +397,52 @@ p.toggle {
     padding-top: 1rem;
   }
 
+  .mappa img {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .article {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .article h2 {
+    font-size: 1.5rem;
+  }
+
+  .article p {
+    font-size: 1rem;
+  }
+
+  .blog {
+    padding: 1rem;
+  }
+
+  .blog .blog-item {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero .btn {
+    font-size: 0.8rem;
+  }
+
+  .article h2 {
+    font-size: 1.2rem;
+  }
+
+  .article p {
+    font-size: 0.9rem;
+  }
+
+  .blog .blog-item {
+    margin-bottom: 1rem;
+  }
+}
