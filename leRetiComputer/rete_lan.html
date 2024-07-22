@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizzazione di una Rete LAN</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+   <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+    <header>
+      
+        <nav>
+            <ul>
+               
+                <li><a href="#"> ☰ <!-- <img class="hamburger" src="images/Hamburger3.png"> --> </a>
+                    <ul class="dropdown">
+                        
+                        <li><a href="comunicazione.html">Comunicazione</a></li>
+                        <li><a href="internet.html">Internet</a></li>
+                        <li><a href="rete_computer.html">Rete di Computer (struttura fisica)</a>
+                            <ul class="dropdown2">
+                                <li><a href="rete_lan.html">LAN</a></li>
+                                <li><a href="mezzi_trasmissivi.html">Mezzi</a></li>
+                                <li><a href="velocita_trasmissione.html">Velocità</a></li>
+                                <li><a href="classificazione_reti.html">Reti</a></li>
+                                <li><a href="modalita_connessione.html">Connessione</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="struttura_logica3.html">Struttura logica</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+    <h1>La rete LAN</h1>
+    <p>Una <a href="rete_computer.html">rete </a> LAN (Local Area Network) collega computer e dispositivi in un'area ristretta, 
+        come una casa, un ufficio o una scuola. 
+        Le reti LAN permettono ai dispositivi di condividere file, stampanti e la connessione a Internet, 
+        facilitando la comunicazione tra le persone.
+        Ecco i principali elementi di una rete LAN</p>
+    <section class="blog>">  
+       <h2>  L'hardware per la comunicazione di un computer con la rete:</h2>   
+         <div class= "nested-articles">  
+            <article class="article"> 
+                <div class="article-content"> 
+                    <h2>La Scheda di Rete</h2>
+                    <p>La scheda di rete Ethernet (NIC) è una scheda elettronica che consente la comunicazione tra un nodo e la rete, 
+                    convertendo i dati, gestendo l'indirizzamento, il traffico, e l'integrità dei dati.</p>
+
+    
+                    <p>      Consente anche la connessione a Internet, ma serve un modem e un ISP.</p>
+                    È univocamente individuata dall'indirizzo MAC (Media Acces Control). 
+                    L'indirizzo MAC è assegnato al dispositivo dal produttore.</p>   
+                    <a href="dispositiviRete.html#schedaRete"><h3>Per saperne di più</h3></a>      
+                </div>
+                <div class="immagine">
+                    <img src="images/nic0.webp">
+                </div>
+            </article>
+             
+
+            <article class="article"> 
+                <div class="article-content"> 
+                 <h2>Lo switch </h2>
+                 <p>Lo switch collega fisicamnete i nodi in una rete,stabilendo connessioni temporanee logiche per instradare i dati solo quando necessario, 
+                     e gestisce il traffico per farli comunicare in modo efficiente.</p>
+                    <p>Apprende e utilizza indirizzi MAC per inoltrare i dati</p>
+                    <a href="dispositiviRete.html#switch"><h3>Per saperne di più</h3></a>    
+                   
+                 </div>
+                 <div class="immagine">
+                 <img src="images/switch00.webp">
+                 </div>
+                 
+             </article>
+             <article class="article"> 
+                 <div class="article-content"> 
+                  <h2>L' Hub</h2>
+                  <p> L'hub invia lo stesso pacchetto a tutti i nodi della rete LAN, in quanto non è in grado di leggere l’indirizzo MAC di destinazione.
+                 </p>
+                  </div>
+                  <div class="immagine">
+                  <img src="images/switch00.webp">
+                  </div>
+              </article>       
+   
+        </div>
+        <h2> L'hardware per mettere in comunicazione le reti diverse </h2>
+        <div class= "nested-articles"> 
+        
+        <article class="article"> 
+            <div class="article-content"> 
+                <h2>Il Modem</h2>
+                <p>Il modem converte <a href="Segnali.html">i dati digitali in dati analogici </a> per la trasmissione sulla linea telefonica e viceversa</p>
+            </div>
+            <div class="immagine">
+                <img src="images/modem.webp">
+                </div>
+            </article>  
+       <article class="article"> 
+       <div class="article-content"> 
+        <h2>Il Router</h2>
+        <p>Il router instrada il traffico di rete (trova il persorso migliore), smistando i pacchetti verso l'esterno della rete locale.</p>
+    <a href="dispositiviRete.html#router"><h3>Per saperne di più</h3></a>   
+    </div>
+       <div class="immagine">
+         <img src="images/router.webp">
+        </div>
+    </article>
+ </div> 
+ 
+ 
+
+    <div class= "nested-articles">    
+       <article class="article"> 
+       <div class="article-content"> 
+        <h2>L'Access Point</h2>
+        <p>L'access point collega dispositivi wireless alla rete, permettendo la connessione tramite accesso radio.</p>
+       </div>
+       <div class="immagine">
+       <img src="images/accesspoint.webp">
+       </div>
+    </article>
+   
+        <article class="article"> 
+          <div class="article-content"> 
+             <h2></h2>
+             <p></p>
+           </div>
+          <div class="immagine">
+          <img src="">
+          </div>
+     </article>
+   </div>    
+
+   <h2>I mezzi trasmissivi per la trasmissione dei segnali tra i vari dispositivi   </h2>
+   <div class= "nested-articles">    
+     <article class="article">
+         <div class="article-content">
+             <h2>Caratteristiche di Ethernet</h2>
+                <p>Ethernet è una tecnologia di rete per trasmettere dati tra dispositivi in una LAN. 
+                 Utilizza <a href="mezzi_trasmissivi.html">cavi a doppino intrecciato o fibre ottiche</a>, con <a href="classificazione_reti.html#stella">topologia a stella </a>, 
+                 supportando diverse velocità di trasmissione.</p>
+         </div>
+         <div class="immagine">
+             <img src="images/ethernet.webp">
+         </div>
+     </article>
+     <article class="article"> 
+        <div class="article-content"> 
+           <h2></h2>
+           <p></p>
+         </div>
+        <div class="immagine">
+        <img src="">
+        </div>
+   </article>
+
+ </div>
+
+        </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Internet e le reti di computer  </p>
+            <p>- Patrizia Boi -</p>
+            <p>Immagini realizzate con Coloring Book Hero</p>
+        </footer>
+</body>
+</html>
