@@ -1,4 +1,4 @@
-/* Stili di base */
+3/* Stili di base */
 body, nav, ul {
   font-family: 'OpenDyslexic', Arial, sans-serif;
   margin: 0;
@@ -114,7 +114,7 @@ nav ul .dropdown2 li a {
 }
 
 .hero h1 {
-  font-size: 1rem;
+  font-size: 3rem;
   margin: 0;
   text-align: center;
 }
