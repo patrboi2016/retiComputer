@@ -14,6 +14,7 @@ body {
   background-color: #f8f9fa;
   color: #333;
   text-align: center;
+  font-size:16px;
 }
 
 a:visited {
@@ -105,7 +106,7 @@ nav ul .dropdown2 li a {
   background-color: #006400;
   color: #fff;
   text-align: left;
-  padding: 10rem 2rem;
+  padding: 8rem 2rem;
   margin: 0;
   padding-top: 25rem;
   padding-bottom: 17rem;
@@ -113,7 +114,7 @@ nav ul .dropdown2 li a {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 1rem;
   margin: 0;
   text-align: center;
 }
@@ -135,18 +136,18 @@ nav ul .dropdown2 li a {
 }
 
 .mappa {
-  padding-left: 10rem;
+  padding-left: 1rem;
   padding-top: 1rem;
 }
 
 .mappa img {
   padding-top: 1rem;
-  width: 70rem;
+  /*width: 70rem;*/
 }
 
 .article {
   flex: 40%;
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
   text-align: left;
   background-color: #ffffff;
   margin: 0.1rem 0.1rem;
@@ -168,12 +169,12 @@ nav ul .dropdown2 li a {
 }
 
 .article h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
 .article p {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   text-align: left;
 }
 
