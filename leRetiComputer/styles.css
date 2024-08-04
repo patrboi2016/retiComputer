@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('fonts/OpenDyslexic-Regular.otf') format('opentype'),
+         url('fonts/OpenDyslexic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, nav, ul {
+    font-family: 'OpenDyslexic', Arial, sans-serif;
+}
+
+
+
+
 3/* Stili di base */
 body, nav, ul {
   font-family: 'OpenDyslexic', Arial, sans-serif;
